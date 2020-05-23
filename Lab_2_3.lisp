@@ -1,4 +1,4 @@
-﻿;gnu clisp 2.49
+;gnu clisp 2.49
 
 (defun comprsf (all i)
     (if (= (nth 1 i) (nth 1 (car all)))
@@ -52,7 +52,7 @@
 )
 
 
-(defconstant list (list 5 5 5 3 2 1 0 2 2 2 0 0 0 0 2 2 2 2))
+(defconstant lst (list 5 5 5 3 2 1 0 2 2 2 0 0 0 0 2 2 2 2))
 
-(print (compress list)) 
-(print (decompress (compress list))) 
+(print (compress lst)) 
+(print (decompress (compress lst))) 
